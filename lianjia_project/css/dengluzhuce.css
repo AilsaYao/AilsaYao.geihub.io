@@ -1,0 +1,71 @@
+a,a:hover{
+    color:#555;
+    text-decoration: none;
+}
+/*头部*/
+.header{
+    height: 42px;
+    line-height: 42px;
+    background: #00ae66;
+}
+.header > .row .options{
+    height: 42px;
+}
+.header > .row .options >ul >li{
+    height: 13px;
+    line-height: 13px;
+    text-align: center;
+    color:#fff;
+    margin-top: 5px;
+}
+.header > .row .options >ul >li>a{
+    color:#fff;
+}
+
+/*第二行*/
+.row-two{
+    height: 130px;
+    background: url("../images/3.jpg") no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    text-align: center;
+}
+.row-two .label{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background: rgba(129, 202, 128, 0.98);
+    margin-top: 15px;
+}
+.row-two .label .glyphicon-user{
+    font-size: 24px;
+    margin-top: 7px;
+}
+.row-two .btn{
+    border:1px solid #fff;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 5px 0 5px;
+    height:35px;
+    width: 80px;
+}
+
+/*第三行*/
+.row-three{
+    padding:0 0 0 15px;
+    border-bottom: 2px solid #c5c5c5;
+}
+.row-three .row{
+    height:50px;
+    line-height: 50px;
+    border-bottom: 1px solid #c5c5c5;
+    margin: 0;
+}
+.row-three .row:last-child{
+    border-bottom: none;
+}
+.row-three .row .col-xs-2{
+    text-align: right;
+}

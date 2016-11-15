@@ -1,0 +1,75 @@
+a,a:hover{
+    color:#555;
+    text-decoration: none;
+}
+/*头部*/
+.header{
+    height: 42px;
+    line-height: 42px;
+    background: #00ae66;
+}
+.header > .row .options{
+    padding:0 10px 0 0;
+}
+.header > .row .options >ul >li{
+    height: 13px;
+    line-height: 13px;
+    text-align: center;
+    color:#fff;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.header > .row .options >ul >li>a{
+    color:#fff;
+}
+
+/*第二行  搜索输入框*/
+.row-two{
+    padding:10px 15px;
+    background: #f4f4f4;
+}
+.row-two .input-group > .input-group-addon{
+    background: #fff;
+    cursor: pointer;
+    color: #00ae66;
+}
+
+/*第三行  选项卡*/
+.row-three > .col-xs-3{
+    padding:0;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border:1px solid #c5c5c5;
+}
+.row-three > .col-xs-3 .glyphicon-chevron-down{
+    top:3px;
+}
+
+/*第四行*/
+.hot-rooms{
+    margin-top: 40px;
+}
+.hot-rooms > .hot-list .media{
+    margin-top: 0;
+    padding:10px 0;
+    border-bottom: 1px solid #c5c5c5;
+}
+.hot-rooms > .hot-list .media-heading{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.hot-rooms > .hot-list .media-body p{
+    margin: 0;
+    font-size: 12px;
+}
+.hot-rooms > .hot-list .media-body .label{
+    display: inline-block;
+    margin-top: 2px;
+}
+.hot-rooms > .hot-list .media .media-right{
+    text-align: center;
+    vertical-align: middle;
+    color:#f1a055;
+    font-size: 16px;
+}

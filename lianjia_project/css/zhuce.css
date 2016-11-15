@@ -1,0 +1,52 @@
+.header{
+    height:126px;
+    border-bottom: 1px solid #dbdbdb;
+    padding:0 0 0 15px;
+}
+.header > .inputs{
+    height:42px;
+    line-height: 42px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.header > .inputs:last-child{
+    border-bottom:none;
+}
+.header > .inputs .form-control{
+    height: 40px;
+    line-height: 40px;
+    border:none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.header > .inputs > .col-xs-8,.col-xs-4{
+    padding:0;
+}
+.header > .inputs > .col-xs-4 > .btn{
+    border-radius: 0;
+    border:1px solid #000;
+    margin:2px 5px;
+    padding: 5px;
+}
+/*注册*/
+
+.row-two > .btn-group{
+    width: 100%;
+    margin:15px 0;
+}
+.row-two > .btn-group > .btn{
+    width: 100%;
+    border-radius: 0;
+}
+
+.row-three{
+    font-size: 12px;
+}
+.row-three .col-xs-8{
+    padding: 0;
+}
+.row-three .col-xs-4{
+    text-align: right;
+}
+.row-three .col-xs-4 a{
+    color:#000;
+}
